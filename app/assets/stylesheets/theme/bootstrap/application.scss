@@ -1,0 +1,107 @@
+// COMPONENTS
+
+// ALERT
+
+.c-alert{
+  @extend .alert;
+}
+
+.c-alert.c-info{
+  @extend .alert-info;
+}
+
+.c-alert.c-success{
+  @extend .alert-success;
+}
+
+.c-alert.c-danger{
+  @extend .alert-danger;
+}
+
+.c-alert.c-warning{
+  @extend .alert-warning;
+}
+
+.c-alert-link{
+  @extend .alert-link
+}
+
+// PANEL
+
+.c-panel{
+  @extend .panel;
+  @extend .panel-default;
+}
+
+.c-panel-title{
+  @extend .panel-heading;
+}
+
+.c-panel-content{
+  @extend .panel-body;
+}
+
+// BUTTON
+
+.c-btn{
+  @extend .btn;
+  @extend .btn-default;
+}
+
+.s-btn-primary{
+  @extend .btn-primary;
+}
+
+.s-btn-success{
+  @extend .btn-success; 
+}
+
+.s-btn-info{
+  @extend .btn-info;
+}
+
+.s-btn-warning{
+  @extend .btn-warning;
+}
+
+.s-btn-danger{
+  @extend .btn-danger;
+}
+
+.s-btn-link{
+  @extend .btn-link;
+}
+
+.s-btn-large{
+  @extend .btn-lg;
+}
+
+.s-btn-medium{
+  @extend .btn-sm;
+}
+
+.s-btn-small{
+  @extend .btn-xs;
+}
+
+// TABLE
+
+.c-table-responsive{
+  @extend .table-responsive;
+}
+
+.c-table{
+  @extend .table;
+}
+
+.s-table-hover{
+  @extend .table-hover;
+}
+
+.s-table-striped{
+  @extend .table-striped;
+}
+
+.s-table-bordered{
+  @extend .table-bordered;
+}
